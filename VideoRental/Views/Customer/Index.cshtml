@@ -1,0 +1,30 @@
+﻿@model IEnumerable<WebMvcPruebaMosh.Models.Customer>
+@{
+    ViewData["Title"] = "Customer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Customers</h1>
+<button type="button" class="btn btn-primary btn-sm"> @Html.ActionLink("New Customer", "New", "Customer")</button>
+<table id="customers" class="table table-bordered table-hover">
+<thead>
+    <tr>
+        <td>Customer Name</td>
+        <td>Membership Type</td>
+        <td>Delete</td>
+    </tr>
+</thead>
+<tbody>
+   @* @foreach (var customer in Model)
+    {
+        <tr>
+            <td>@Html.ActionLink(customer.Name + " " + @customer.LastName, "Edit", "Customer", new { id = customer.Id })</td>
+            <td>@customer.MembershipType.DiscountRate%</td>
+            <td>@customer.MembershipType.Name</td>
+            <td><button data-customer-id="@customer.Id" class="btn-link js-delete">Delete</button></td>
+        </tr>
+    } *@
+</tbody>
+</table>
+
+

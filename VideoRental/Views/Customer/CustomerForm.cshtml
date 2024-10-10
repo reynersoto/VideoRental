@@ -1,0 +1,104 @@
+﻿@model WebMvcPruebaMosh.ViewModels.CustomerFormViewModel
+@{
+    ViewData["Title"] = "New";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    var pageTitle = Model.Id == 0 ? "New Customer" : "Edit Customer";
+}
+
+<h1>@pageTitle</h1> 
+@using (Html.BeginForm("Save", "Customer"))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "Please fix the validation errors.")
+    @Html.LabelFor(m => m.Name, new {@class = "form-label"})
+    <div class="input-group mb-3">
+        @Html.TextBoxFor(mbox => mbox.Name, new { @class = "form-control" })
+    </div>
+    @Html.ValidationMessageFor(val => val.Name)
+    <span asp-validation-for="Name" class="text-danger"></span>
+    <br />
+    @Html.LabelFor(m => m.LastName, new { @class = "form-label" })
+    <div class="input-group mb-3">
+        @Html.TextBoxFor(mbox => mbox.LastName, new { @class = "form-control" })
+    </div>
+    @Html.ValidationMessageFor(val => val.LastName)
+    <br />
+
+    @Html.LabelFor(m => m.Email, new { @class = "form-label" })
+    <div class="input-group mb-3">
+        @Html.TextBoxFor(mbox => mbox.Email, new { @class = "form-control" })
+    </div>
+
+    @Html.ValidationMessageFor(val => val.Email)
+    <br />
+    @Html.LabelFor(m => m.Address, new {@class = "form-label"})
+    <div class="input-group mb-3">
+        @Html.TextBoxFor(mbox => mbox.Address, new { @class = "form-control" })
+    </div>
+
+    @Html.ValidationMessageFor(val => val.Address)
+    <br />
+    @Html.LabelFor(m => m.Region, new {@class = "form-label"})
+    <div class="input-group mb-3">
+        @Html.TextBoxFor(mbox => mbox.Region, new { @class = "form-control" })
+    </div> 
+    @Html.ValidationMessageFor(val => val.Address)
+    <br />
+    @Html.LabelFor(m => m.City, new {@class = "form-label"})
+    <div class="input-group mb-3">
+        @Html.TextBoxFor(mbox => mbox.City, new { @class = "form-control" })
+    </div>
+
+    @Html.ValidationMessageFor(val => val.City)
+    <br />
+    @Html.LabelFor(m => m.Country, new { @class = "form-label" })
+    <div class="input-group mb-3">
+        @Html.TextBoxFor(mbox => mbox.Country, new { @class = "form-control" })
+
+    </div> 
+    @Html.ValidationMessageFor(val => val.Country)
+    <br />
+    @Html.LabelFor(m => m.Phone, new { @class = "form-label" })
+    <div class="input-group mb-3">
+        @Html.TextBoxFor(mbox => mbox.Phone, new { @class = "form-control" })
+    </div> 
+    @Html.ValidationMessageFor(val => val.Phone)
+    <br />
+    @Html.LabelFor(m => m.Extension, new { @class = "form-label" })
+    <div class="input-group mb-3">
+        @Html.TextBoxFor(mbox => mbox.Extension, new { @class = "form-control" })
+    </div>
+    @Html.ValidationMessageFor(val => val.Extension)
+    <br />
+    @Html.LabelFor(m => m.Birthday, new { @class = "form-label" })
+    <div class="input-group mb-3">
+        @Html.TextBoxFor(mbox => mbox.Birthday, "{0:d MM yyyy}", new { @class = "form-control" })
+    </div>
+    @Html.ValidationMessageFor(val => val.Birthday)
+    <br />
+    @Html.LabelFor(m => m.PostalCode, new { @class = "form-label" })
+    <div class="input-group mb-3">
+        @Html.TextBoxFor(mbox => mbox.PostalCode, new { @class = "form-control" })
+    </div>   
+    @Html.ValidationMessageFor(val => val.PostalCode)
+    <br />
+    <div class="form-select">
+        @Html.LabelFor(m => m.MembershipTypeId, new { @class = "form-label" })
+        @Html.DropDownListFor(mbox => mbox.MembershipTypeId, new SelectList(Model.MembershipTypes, "Id", "Name"), "Select a MembershipType" )
+    </div>
+    @Html.ValidationMessageFor(val => val.MembershipTypeId)
+    <br />
+    <div class="form-check-inline form-control">
+        <label>
+            @Html.CheckBoxFor(m => m.isSubscribeToNewsletter)
+            Subscribed to newsletter?
+        </label>
+    </div>
+    @Html.HiddenFor(mbox => mbox.Id);
+    <button type="submit" class="btn btn-primary btn-success">Save</button>
+
+}
+

@@ -1,0 +1,43 @@
+﻿@model IEnumerable<WebMvcPruebaMosh.Models.Movies>
+@{
+    ViewData["Title"] = "Movies";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Movies</h1>
+<table id="moviesReadOnly" class="table table-bordered table-hover">
+<thead>
+    <tr>
+        <td>Movie Name</td>
+        <td>Genre</td>
+    </tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+        var table = $("#moviesReadOnly").DataTable
+            ({
+                ajax:
+                {
+                    url: "/api/movies",
+                    dataSrc: ""
+                },
+                columns:
+                    [
+                        {
+                            data: "title"
+                        },
+                        {
+                            data: "genre.name"
+                        }   
+                ]
+        });
+    
+});
+    </script>
+}
+

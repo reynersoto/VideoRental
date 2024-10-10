@@ -1,0 +1,20 @@
+﻿@model IEnumerable<WebMvcPruebaMosh.Models.Movies>
+@{
+    ViewData["Title"] = "Movies";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Movies</h1>
+<button type="button" class="btn btn-primary btn-sm"> @Html.ActionLink("New Movie", "New", "Movie")</button>
+<table id="movies" class="table table-bordered table-hover">
+<thead>
+    <tr>
+        <td>Movie Name</td>
+        <td>Genre</td>
+        <td>Delete</td>
+    </tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+

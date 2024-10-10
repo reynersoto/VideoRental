@@ -1,0 +1,45 @@
+﻿@model WebMvcPruebaMosh.ViewModels.NewMovieViewModel
+@{
+    ViewData["Title"] = "VideoForm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    var pageTitle = Model.PageTitle;
+}
+
+<h1>@pageTitle</h1>
+@using (Html.BeginForm("Save", "Movie"))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true,"Please fix the following errors.")
+    @Html.LabelFor(m => m.Title, new { @class = "form-label" })
+    <div class="input-group mb-3">
+        @Html.TextBoxFor(mbox => mbox.Title, new { @class = "form-control" })
+    </div>
+    @Html.ValidationMessageFor(val => val.Title)
+    <br />
+    <div class="form-select">
+        @Html.LabelFor(m => m.GenreId, new { @class = "form-label" })
+        @Html.DropDownListFor(mbox => mbox.GenreId, new SelectList(Model.Genres, "Id", "Name"), "Select a Genre")
+    </div>
+    @Html.ValidationMessageFor(val => val.GenreId)
+    <br />
+    @Html.LabelFor(m => m.ReleaseDate, new { @class = "form-label" })
+    <div class="input-group mb-3">
+        @Html.TextBoxFor(mbox => mbox.ReleaseDate, "{0:d MM yyyy}", new { @class = "form-control" })
+    </div>
+    @Html.ValidationMessageFor(val => val.ReleaseDate)
+    <br />
+   
+    @Html.LabelFor(m => m.NumbersInStock, new { @class = "form-label" })
+    <div class="input-group mb-3">
+        @Html.TextBoxFor(mbox => mbox.NumbersInStock, new { @class = "form-control" })
+    </div>
+    @Html.ValidationMessageFor(val => val.NumbersInStock)
+    <br />
+    @Html.HiddenFor(mbox => mbox.Id)
+    <button type="submit" class="btn btn-primary btn-success">Save</button>
+
+    
+}
+
