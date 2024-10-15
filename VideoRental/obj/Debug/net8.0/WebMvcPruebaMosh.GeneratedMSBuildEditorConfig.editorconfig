@@ -17,247 +17,251 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebMvcPruebaMosh
 build_property.RootNamespace = WebMvcPruebaMosh
-build_property.ProjectDir = C:\Users\hatre\OneDrive - Caja Costarricense de Seguro Social\Ascenso documentos importantes\ProgramaciónPensiones\ASPMVC\WebMvcPruebaMosh\
+build_property.ProjectDir = C:\ProyectosGP\VideoRentalMVC\VideoRental\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\hatre\OneDrive - Caja Costarricense de Seguro Social\Ascenso documentos importantes\ProgramaciónPensiones\ASPMVC\WebMvcPruebaMosh
+build_property.MSBuildProjectDirectory = C:\ProyectosGP\VideoRentalMVC\VideoRental
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Lockout.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGlzYWJsZTJmYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/Error.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Views/Customer/CustomerForm.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Views/Customer/CustomerForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3VzdG9tZXJGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Views/Customer/Details.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Views/Customer/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Views/Customer/Index.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Views/Customer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Views/Home/Index.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Views/Home/Privacy.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Views/Movie/Details.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Views/Movie/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Views/Movie/List.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Views/Movie/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Views/Movie/MovieForm.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Views/Movie/MovieForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcTW92aWVGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Views/Movie/ReadOnlyList.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Views/Movie/ReadOnlyList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcUmVhZE9ubHlMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Views/Shared/backup/_NavBar - Copia.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Views/Rentals/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudGFsc1xOZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Views/Shared/backup/_NavBar - Copia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGJhY2t1cFxfTmF2QmFyIC0gQ29waWEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Views/Shared/Error.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Views/Shared/_LoginPartial.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Views/Shared/_NavBar.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Views/Shared/_NavBar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZCYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Views/UserRole/AssignRole.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Views/UserRole/AssignRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJvbGVcQXNzaWduUm9sZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Views/_ViewImports.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Views/_ViewStart.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Views/Shared/backup/_Layout_back.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Views/Shared/backup/_Layout_back.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGJhY2t1cFxfTGF5b3V0X2JhY2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nuvmk37tey
 
-[C:/Users/hatre/OneDrive - Caja Costarricense de Seguro Social/Ascenso documentos importantes/ProgramaciónPensiones/ASPMVC/WebMvcPruebaMosh/Views/Shared/_Layout.cshtml]
+[C:/ProyectosGP/VideoRentalMVC/VideoRental/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-l32s4mt6tb

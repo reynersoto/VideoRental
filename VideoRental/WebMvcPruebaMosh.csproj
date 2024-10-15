@@ -34,6 +34,12 @@
 	  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 	</PackageReference>
 	<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.6" />
+	<PackageReference Include="toastr" Version="2.1.1" />
+	<PackageReference Include="Twitter.Typeahead" Version="0.11.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\toastr\" />
   </ItemGroup>
 
 </Project>

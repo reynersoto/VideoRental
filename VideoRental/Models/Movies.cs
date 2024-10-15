@@ -20,9 +20,10 @@ namespace WebMvcPruebaMosh.Models
         [Display(Name = "Available Since")]
         public DateTime DateAdded { get; set; }
         [Required]
-        [Display(Name = "Available Movies")]
+        [Display(Name = "Total Movies in Stock")]
         [RangeMovieStock]
         public short NumbersInStock { get; set; }
-
+        [Required]
+        public short NumberAvailable { get; set; }
     }
 }

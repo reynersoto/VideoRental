@@ -23,12 +23,22 @@ namespace WebMvcPruebaMosh.Controllers.Api
 
         }
         [HttpGet]
-        public IEnumerable<MovieDTO> GetMovies()
+        public ActionResult GetMovies(string query = null)
         {
-            return _context.Movies
-                .Include(g => g.Genre)
-                .Select(_mapper.Map<Movies, MovieDTO>)
-                .ToList();
+            IEnumerable<Movies> movieQuery = _context.Movies
+                .Include(g => g.Genre);
+
+            if (!String.IsNullOrWhiteSpace(query))
+                movieQuery = movieQuery.Where(c => 
+                c.Title.Contains(query) &&
+                c.NumberAvailable > 0
+                );
+
+            var movieDtos = movieQuery
+                .ToList()
+                .Select(_mapper.Map<Movies, MovieDTO>);
+
+            return Ok(movieDtos);
         }
         [HttpGet("{id}")]
         public ActionResult GetMovie(int id) 

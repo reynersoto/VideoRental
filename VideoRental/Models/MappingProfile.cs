@@ -12,14 +12,11 @@ namespace WebMvcPruebaMosh.Models
            CreateMap<CustomerDTO, Customer>();
 
            CreateMap<Movies, MovieDTO>();
-            CreateMap<MovieDTO,Movies>();
+           CreateMap<MovieDTO,Movies>();
 
-            CreateMap<MembershipTypes,MembershipTypeDTO>().ReverseMap();
+           CreateMap<MembershipTypes,MembershipTypeDTO>().ReverseMap();
            
            CreateMap<Genre, GenreDTO>().ReverseMap();
-
-
-
         }
     }
 }

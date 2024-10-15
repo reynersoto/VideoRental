@@ -357,6 +357,9 @@ namespace WebMvcPruebaMosh.Migrations
                     b.Property<short>("GenreId")
                         .HasColumnType("smallint");
 
+                    b.Property<short>("NumberAvailable")
+                        .HasColumnType("smallint");
+
                     b.Property<short>("NumbersInStock")
                         .HasColumnType("smallint");
 
@@ -373,6 +376,35 @@ namespace WebMvcPruebaMosh.Migrations
                     b.HasIndex("GenreId");
 
                     b.ToTable("Movies");
+                });
+
+            modelBuilder.Entity("WebMvcPruebaMosh.Models.Rental", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CustomerId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("DateRented")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DateReturned")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("MoviesId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CustomerId");
+
+                    b.HasIndex("MoviesId");
+
+                    b.ToTable("Rental");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -446,6 +478,25 @@ namespace WebMvcPruebaMosh.Migrations
                         .IsRequired();
 
                     b.Navigation("Genre");
+                });
+
+            modelBuilder.Entity("WebMvcPruebaMosh.Models.Rental", b =>
+                {
+                    b.HasOne("WebMvcPruebaMosh.Models.Customer", "Customer")
+                        .WithMany()
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebMvcPruebaMosh.Models.Movies", "Movies")
+                        .WithMany()
+                        .HasForeignKey("MoviesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Customer");
+
+                    b.Navigation("Movies");
                 });
 #pragma warning restore 612, 618
         }

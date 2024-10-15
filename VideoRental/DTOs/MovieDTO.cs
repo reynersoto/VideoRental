@@ -20,7 +20,9 @@ namespace WebMvcPruebaMosh.DTOs
         public DateTime DateAdded { get; set; }
         [Required]
         public short NumbersInStock { get; set; }
-        
+        [Required]
+        public short NumberAvailable { get; set; }
+
 
 
     }

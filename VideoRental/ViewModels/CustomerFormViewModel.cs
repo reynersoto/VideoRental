@@ -53,7 +53,7 @@ namespace WebMvcPruebaMosh.ViewModels
         public bool isSubscribeToNewsletter { get; set; }
 
         [Display(Name = "Membership Type")]
-        public byte MembershipTypeId { get; set; }
+        public byte MembershipTypesId { get; set; }
 
         [Display(Name = "Date of Birth")]
         [Min18YearsIfAMember]
@@ -83,7 +83,7 @@ namespace WebMvcPruebaMosh.ViewModels
             Country = customer.Country;
             PostalCode = customer.PostalCode;
             Birthday = customer.Birthday;
-            MembershipTypeId = customer.MembershipTypesId;
+            MembershipTypesId = customer.MembershipTypesId;
             isSubscribeToNewsletter = customer.isSubscribeToNewsletter;
         }
     }

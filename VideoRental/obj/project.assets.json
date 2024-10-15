@@ -3294,6 +3294,18 @@
             "rid": "win"
           }
         }
+      },
+      "toastr/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.6.3"
+        }
+      },
+      "Twitter.Typeahead/0.11.1": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.10.2"
+        }
       }
     }
   },
@@ -9377,6 +9389,40 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "toastr/2.1.1": {
+      "sha512": "h/688XvzYk1xVYn213ryU+HCElE4n/drYzAHJkAi9LsSUPS3EbI6wGlvCglBUt7i4h5iESgAVarYaigjQmVpqg==",
+      "type": "package",
+      "path": "toastr/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/content/toastr.css",
+        "content/content/toastr.less",
+        "content/content/toastr.min.css",
+        "content/content/toastr.scss",
+        "content/scripts/toastr.js",
+        "content/scripts/toastr.min.js",
+        "toastr.2.1.1.nupkg.sha512",
+        "toastr.nuspec"
+      ]
+    },
+    "Twitter.Typeahead/0.11.1": {
+      "sha512": "rvLNWhljNZDvl/zFAghW/KlE0bRUzndkhMLxCoGkxph2h/kilGIIhqIXklcBH9S/gYeHTQ0VBnyiMk+6gPhhGw==",
+      "type": "package",
+      "path": "twitter.typeahead/0.11.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Scripts/bloodhound.js",
+        "content/Scripts/bloodhound.min.js",
+        "content/Scripts/typeahead.bundle.js",
+        "content/Scripts/typeahead.bundle.min.js",
+        "content/Scripts/typeahead.jquery.js",
+        "content/Scripts/typeahead.jquery.min.js",
+        "twitter.typeahead.0.11.1.nupkg.sha512",
+        "twitter.typeahead.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -9390,10 +9436,12 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.10",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.6",
+      "Twitter.Typeahead >= 0.11.1",
       "automapper >= 13.0.1",
       "bootbox >= 4.3.0",
       "jquery >= 3.7.1",
-      "jquery.datatables >= 1.10.15"
+      "jquery.datatables >= 1.10.15",
+      "toastr >= 2.1.1"
     ]
   },
   "packageFolders": {
@@ -9403,11 +9451,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hatre\\OneDrive - Caja Costarricense de Seguro Social\\Ascenso documentos importantes\\ProgramaciónPensiones\\ASPMVC\\WebMvcPruebaMosh\\WebMvcPruebaMosh.csproj",
+      "projectUniqueName": "C:\\ProyectosGP\\VideoRentalMVC\\VideoRental\\WebMvcPruebaMosh.csproj",
       "projectName": "WebMvcPruebaMosh",
-      "projectPath": "C:\\Users\\hatre\\OneDrive - Caja Costarricense de Seguro Social\\Ascenso documentos importantes\\ProgramaciónPensiones\\ASPMVC\\WebMvcPruebaMosh\\WebMvcPruebaMosh.csproj",
+      "projectPath": "C:\\ProyectosGP\\VideoRentalMVC\\VideoRental\\WebMvcPruebaMosh.csproj",
       "packagesPath": "C:\\Users\\hatre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hatre\\OneDrive - Caja Costarricense de Seguro Social\\Ascenso documentos importantes\\ProgramaciónPensiones\\ASPMVC\\WebMvcPruebaMosh\\obj\\",
+      "outputPath": "C:\\ProyectosGP\\VideoRentalMVC\\VideoRental\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9487,6 +9535,10 @@
             "target": "Package",
             "version": "[8.0.6, )"
           },
+          "Twitter.Typeahead": {
+            "target": "Package",
+            "version": "[0.11.1, )"
+          },
           "automapper": {
             "target": "Package",
             "version": "[13.0.1, )"
@@ -9502,6 +9554,10 @@
           "jquery.datatables": {
             "target": "Package",
             "version": "[1.10.15, )"
+          },
+          "toastr": {
+            "target": "Package",
+            "version": "[2.1.1, )"
           }
         },
         "imports": [

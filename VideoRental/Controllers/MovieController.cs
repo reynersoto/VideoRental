@@ -71,6 +71,7 @@ namespace WebMvcPruebaMosh.Controllers
                     if (movie.Id == 0)
                     {
                         movie.DateAdded = DateTime.Now;
+                        movie.NumberAvailable = movie.NumbersInStock;
                         _context.Movies.Add(movie);
                     } 
                     else 
@@ -80,6 +81,7 @@ namespace WebMvcPruebaMosh.Controllers
                         movieInDb.Title = movie.Title;
                         movieInDb.ReleaseDate = movie.ReleaseDate;
                         movieInDb.NumbersInStock = movie.NumbersInStock;
+                        movieInDb.NumberAvailable = (short)(movie.NumbersInStock - movie.NumberAvailable);
                     }
                         _context.SaveChanges();
                         return RedirectToAction("Index", "Movie");

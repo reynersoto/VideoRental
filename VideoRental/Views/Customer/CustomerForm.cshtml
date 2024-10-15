@@ -86,10 +86,10 @@
     @Html.ValidationMessageFor(val => val.PostalCode)
     <br />
     <div class="form-select">
-        @Html.LabelFor(m => m.MembershipTypeId, new { @class = "form-label" })
-        @Html.DropDownListFor(mbox => mbox.MembershipTypeId, new SelectList(Model.MembershipTypes, "Id", "Name"), "Select a MembershipType" )
+        @Html.LabelFor(m => m.MembershipTypesId, new { @class = "form-label" })
+        @Html.DropDownListFor(mbox => mbox.MembershipTypesId, new SelectList(Model.MembershipTypes, "Id", "Name"), "Select a MembershipType" )
     </div>
-    @Html.ValidationMessageFor(val => val.MembershipTypeId)
+    @Html.ValidationMessageFor(val => val.MembershipTypesId)
     <br />
     <div class="form-check-inline form-control">
         <label>

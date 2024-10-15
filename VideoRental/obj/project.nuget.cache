@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gaP0yQ+YO7s=",
+  "dgSpecHash": "LNbW9Hc79HQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hatre\\OneDrive - Caja Costarricense de Seguro Social\\Ascenso documentos importantes\\ProgramaciónPensiones\\ASPMVC\\WebMvcPruebaMosh\\WebMvcPruebaMosh.csproj",
+  "projectFilePath": "C:\\ProyectosGP\\VideoRentalMVC\\VideoRental\\WebMvcPruebaMosh.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hatre\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\hatre\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
@@ -193,7 +193,9 @@
     "C:\\Users\\hatre\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
     "C:\\Users\\hatre\\.nuget\\packages\\system.threading.tasks.dataflow\\7.0.0\\system.threading.tasks.dataflow.7.0.0.nupkg.sha512",
     "C:\\Users\\hatre\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\hatre\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+    "C:\\Users\\hatre\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\hatre\\.nuget\\packages\\toastr\\2.1.1\\toastr.2.1.1.nupkg.sha512",
+    "C:\\Users\\hatre\\.nuget\\packages\\twitter.typeahead\\0.11.1\\twitter.typeahead.0.11.1.nupkg.sha512"
   ],
   "logs": [
     {

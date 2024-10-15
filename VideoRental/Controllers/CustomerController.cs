@@ -83,7 +83,7 @@ namespace WebMvcPruebaMosh.Controllers
             }
             catch (Exception exception)
             {
-                return RedirectToAction("CustomerForm", "Customer");
+                throw exception;
             }
 
         }

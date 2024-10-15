@@ -27,13 +27,22 @@ namespace WebMvcPruebaMosh.Controllers.Api
         //GET api/customers
         
         [Microsoft.AspNetCore.Mvc.HttpGet]
-        public IEnumerable<CustomerDTO> GetCustomers() 
+        public ActionResult GetCustomers(string query = null) 
         {
-           var customers = _context.Customers
-                .Include(c => c.MembershipTypes)
-                .Select(_mapper.Map<Customer,CustomerDTO>)
-                .ToList();
-            return customers;
+            IEnumerable<Customer> customersQuery = _context.Customers
+                .Include(c => c.MembershipTypes);
+
+
+            if (!String.IsNullOrWhiteSpace(query))
+                customersQuery = customersQuery.Where(c => c.Name.Contains(query) || c.LastName.Contains(query));
+
+            var customersDtos = customersQuery
+                .ToList()
+                .Select(_mapper.Map<Customer, CustomerDTO>);
+                
+
+
+            return Ok(customersDtos);
         }
         //GET api/customers/1
         [Microsoft.AspNetCore.Mvc.HttpGet("{id}")]

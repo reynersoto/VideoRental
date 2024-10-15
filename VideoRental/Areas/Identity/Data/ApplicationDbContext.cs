@@ -26,6 +26,7 @@ public class ApplicationDbContext : IdentityDbContext<User>
     public DbSet<Movies> Movies { get; set; }
     public DbSet<MembershipTypes> MembershipTypes { get; set; }
     public DbSet<Genre> Genres { get; set; }
+    public DbSet<Rental> Rental { get; set; }
 
 }
 
